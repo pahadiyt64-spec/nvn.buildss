@@ -1,45 +1,85 @@
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+
+    𝙢𝙖𝙧𝙜𝙞𝙣: 0;
+
+    𝙥𝙖𝙙𝙙𝙞𝙣𝙜: 0;
+
+    𝙗𝙤𝙭-𝙨𝙞𝙯𝙞𝙣𝙜: 𝙗𝙤𝙧𝙙𝙚𝙧-𝙗𝙤𝙭;
+
+    𝙛𝙤𝙣𝙩-𝙛𝙖𝙢𝙞𝙡𝙮: 𝙨𝙖𝙣𝙨-𝙨𝙚𝙧𝙞𝙛;
+
   }
+
   
-  body {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d9a6a6;
+
+  𝙗𝙤𝙙𝙮 {
+
+    𝙬𝙞𝙙𝙩𝙝: 100%;
+
+    𝙢𝙞𝙣-𝙝𝙚𝙞𝙜𝙝𝙩: 100𝙫𝙝;
+
+    𝙙𝙞𝙨𝙥𝙡𝙖𝙮: 𝙛𝙡𝙚𝙭;
+
+    𝙟𝙪𝙨𝙩𝙞𝙛𝙮-𝙘𝙤𝙣𝙩𝙚𝙣𝙩: 𝙘𝙚𝙣𝙩𝙚𝙧;
+
+    𝙖𝙡𝙞𝙜𝙣-𝙞𝙩𝙚𝙢𝙨: 𝙘𝙚𝙣𝙩𝙚𝙧;
+
+    𝙗𝙖𝙘𝙠𝙜𝙧𝙤𝙪𝙣𝙙-𝙘𝙤𝙡𝙤𝙧: #𝙙9𝙖6𝙖6;
+
   }
+
   
-  .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 20px;
-    max-width: 500px;
-    margin: 20px;
+
+  .𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙚𝙧 {
+
+    𝙙𝙞𝙨𝙥𝙡𝙖𝙮: 𝙛𝙡𝙚𝙭;
+
+    𝙛𝙡𝙚𝙭-𝙙𝙞𝙧𝙚𝙘𝙩𝙞𝙤𝙣: 𝙘𝙤𝙡𝙪𝙢𝙣;
+
+    𝙩𝙚𝙭𝙩-𝙖𝙡𝙞𝙜𝙣: 𝙘𝙚𝙣𝙩𝙚𝙧;
+
+    𝙖𝙡𝙞𝙜𝙣-𝙞𝙩𝙚𝙢𝙨: 𝙘𝙚𝙣𝙩𝙚𝙧;
+
+    𝙜𝙖𝙥: 20𝙥𝙭;
+
+    𝙢𝙖𝙭-𝙬𝙞𝙙𝙩𝙝: 500𝙥𝙭;
+
+    𝙢𝙖𝙧𝙜𝙞𝙣: 20𝙥𝙭;
+
   }
+
   
-  .container .tenor-gif-embed {
-    max-width: 200px;
+
+  .𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙚𝙧 .𝙩𝙚𝙣𝙤𝙧-𝙜𝙞𝙛-𝙚𝙢𝙗𝙚𝙙 {
+
+    𝙢𝙖𝙭-𝙬𝙞𝙙𝙩𝙝: 200𝙥𝙭;
+
   }
+
   
-  .container .btn {
-    display: flex;
-    gap: 25px;
+
+  .𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙚𝙧 .𝙗𝙩𝙣 {
+
+    𝙙𝙞𝙨𝙥𝙡𝙖𝙮: 𝙛𝙡𝙚𝙭;
+
+    𝙜𝙖𝙥: 25𝙥𝙭;
+
   }
+
   
-  .btn a {
-    text-decoration: none;
-    color: #111;
-    background: #fff;
-    padding: 10px 25px;
-    border-radius: 66px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+
+  .𝙗𝙩𝙣 𝙖 {
+
+    𝙩𝙚𝙭𝙩-𝙙𝙚𝙘𝙤𝙧𝙖𝙩𝙞𝙤𝙣: 𝙣𝙤𝙣𝙚;
+
+    𝙘𝙤𝙡𝙤𝙧: #111;
+
+    𝙗𝙖𝙘𝙠𝙜𝙧𝙤𝙪𝙣𝙙: #𝙛𝙛𝙛;
+
+    𝙥𝙖𝙙𝙙𝙞𝙣𝙜: 10𝙥𝙭 25𝙥𝙭;
+
+    𝙗𝙤𝙧𝙙𝙚𝙧-𝙧𝙖𝙙𝙞𝙪𝙨: 66𝙥𝙭;
+
+    𝙗𝙤𝙭-𝙨𝙝𝙖𝙙𝙤𝙬: 0.5𝙧𝙚𝙢 1𝙧𝙚𝙢 3𝙧𝙚𝙢 𝙝𝙨𝙡(0, 0%, 0%, 0.3);
+
   }
